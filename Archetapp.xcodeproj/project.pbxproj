@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C9DE5E504FF496E8806E94A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7077ACA29A24857B0D52726 /* libPods.a */; };
+		AC2185811995B0580093BB1B /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2185801995B0580093BB1B /* VideoViewController.m */; };
+		AC3136AA1975769900F5050B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3136A91975769900F5050B /* SWRevealViewController.m */; };
+		AC3136AF19757EFD00F5050B /* ArchetappHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3136AD19757EFD00F5050B /* ArchetappHeader.png */; };
+		AC3136B019757EFD00F5050B /* ArchetappHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3136AE19757EFD00F5050B /* ArchetappHeader@2x.png */; };
+		AC3136B319758EB600F5050B /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3136B219758EB600F5050B /* YoutubeViewController.m */; };
+		ACA23BDA197444AF005FC85B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23BD9197444AF005FC85B /* Foundation.framework */; };
+		ACA23BDC197444AF005FC85B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23BDB197444AF005FC85B /* CoreGraphics.framework */; };
+		ACA23BDE197444AF005FC85B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23BDD197444AF005FC85B /* UIKit.framework */; };
+		ACA23BE4197444AF005FC85B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA23BE2197444AF005FC85B /* InfoPlist.strings */; };
+		ACA23BE6197444AF005FC85B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA23BE5197444AF005FC85B /* main.m */; };
+		ACA23BEA197444AF005FC85B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA23BE9197444AF005FC85B /* AppDelegate.m */; };
+		ACA23BED197444AF005FC85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA23BEB197444AF005FC85B /* Main.storyboard */; };
+		ACA23BF2197444AF005FC85B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA23BF1197444AF005FC85B /* Images.xcassets */; };
+		ACA23BF9197444AF005FC85B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23BF8197444AF005FC85B /* XCTest.framework */; };
+		ACA23BFA197444AF005FC85B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23BD9197444AF005FC85B /* Foundation.framework */; };
+		ACA23BFB197444AF005FC85B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23BDD197444AF005FC85B /* UIKit.framework */; };
+		ACA23C03197444AF005FC85B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA23C01197444AF005FC85B /* InfoPlist.strings */; };
+		ACA23C05197444AF005FC85B /* ArchetappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA23C04197444AF005FC85B /* ArchetappTests.m */; };
+		ACA23C1D1974537E005FC85B /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA23C1C1974537E005FC85B /* NavigationViewController.m */; };
+		ACA23C1F19746101005FC85B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA23C1E19746101005FC85B /* MapKit.framework */; };
+		ACA93D4C19AFBBF900648F72 /* YoutubeBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA93D4B19AFBBF900648F72 /* YoutubeBanner.png */; };
+		ACB2E90F19B6966E0000EBBA /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB2E90D19B6966E0000EBBA /* menu.png */; };
+		ACB2E91019B6966E0000EBBA /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB2E90E19B6966E0000EBBA /* menu@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA23BFC197444AF005FC85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA23BCE197444AF005FC85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA23BD5197444AF005FC85B;
+			remoteInfo = Archetapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BAEFAAF14D74554A0970F55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AC21857F1995B0580093BB1B /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		AC2185801995B0580093BB1B /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		AC3136A81975769900F5050B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SlideOutMenuFiles/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		AC3136A91975769900F5050B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SlideOutMenuFiles/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		AC3136AD19757EFD00F5050B /* ArchetappHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArchetappHeader.png; sourceTree = SOURCE_ROOT; };
+		AC3136AE19757EFD00F5050B /* ArchetappHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ArchetappHeader@2x.png"; sourceTree = SOURCE_ROOT; };
+		AC3136B119758EB600F5050B /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeViewController.h; sourceTree = "<group>"; };
+		AC3136B219758EB600F5050B /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeViewController.m; sourceTree = "<group>"; };
+		ACA23BD6197444AF005FC85B /* Archetapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archetapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA23BD9197444AF005FC85B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACA23BDB197444AF005FC85B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACA23BDD197444AF005FC85B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACA23BE1197444AF005FC85B /* Archetapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Archetapp-Info.plist"; sourceTree = "<group>"; };
+		ACA23BE3197444AF005FC85B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACA23BE5197444AF005FC85B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACA23BE7197444AF005FC85B /* Archetapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Archetapp-Prefix.pch"; sourceTree = "<group>"; };
+		ACA23BE8197444AF005FC85B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACA23BE9197444AF005FC85B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACA23BEC197444AF005FC85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA23BF1197444AF005FC85B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACA23BF7197444AF005FC85B /* ArchetappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchetappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA23BF8197444AF005FC85B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACA23C00197444AF005FC85B /* ArchetappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArchetappTests-Info.plist"; sourceTree = "<group>"; };
+		ACA23C02197444AF005FC85B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACA23C04197444AF005FC85B /* ArchetappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchetappTests.m; sourceTree = "<group>"; };
+		ACA23C1B1974537E005FC85B /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationViewController.h; path = ../NavigationViewController.h; sourceTree = "<group>"; };
+		ACA23C1C1974537E005FC85B /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationViewController.m; path = ../NavigationViewController.m; sourceTree = "<group>"; };
+		ACA23C1E19746101005FC85B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ACA93D4B19AFBBF900648F72 /* YoutubeBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YoutubeBanner.png; sourceTree = "<group>"; };
+		ACB2E90D19B6966E0000EBBA /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		ACB2E90E19B6966E0000EBBA /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		D7077ACA29A24857B0D52726 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA23BD3197444AF005FC85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA23C1F19746101005FC85B /* MapKit.framework in Frameworks */,
+				ACA23BDC197444AF005FC85B /* CoreGraphics.framework in Frameworks */,
+				ACA23BDE197444AF005FC85B /* UIKit.framework in Frameworks */,
+				ACA23BDA197444AF005FC85B /* Foundation.framework in Frameworks */,
+				5C9DE5E504FF496E8806E94A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA23BF4197444AF005FC85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA23BF9197444AF005FC85B /* XCTest.framework in Frameworks */,
+				ACA23BFB197444AF005FC85B /* UIKit.framework in Frameworks */,
+				ACA23BFA197444AF005FC85B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA23BCD197444AF005FC85B = {
+			isa = PBXGroup;
+			children = (
+				ACA23BDF197444AF005FC85B /* Archetapp */,
+				ACA23BFE197444AF005FC85B /* ArchetappTests */,
+				ACA23BD8197444AF005FC85B /* Frameworks */,
+				ACA23BD7197444AF005FC85B /* Products */,
+				9BAEFAAF14D74554A0970F55 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA23BD7197444AF005FC85B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA23BD6197444AF005FC85B /* Archetapp.app */,
+				ACA23BF7197444AF005FC85B /* ArchetappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA23BD8197444AF005FC85B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA23C1E19746101005FC85B /* MapKit.framework */,
+				ACA23BD9197444AF005FC85B /* Foundation.framework */,
+				ACA23BDB197444AF005FC85B /* CoreGraphics.framework */,
+				ACA23BDD197444AF005FC85B /* UIKit.framework */,
+				ACA23BF8197444AF005FC85B /* XCTest.framework */,
+				D7077ACA29A24857B0D52726 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA23BDF197444AF005FC85B /* Archetapp */ = {
+			isa = PBXGroup;
+			children = (
+				ACA23BF1197444AF005FC85B /* Images.xcassets */,
+				ACA93D4B19AFBBF900648F72 /* YoutubeBanner.png */,
+				ACA781B019B024AE006AFE2B /* Edit These Files! */,
+				ACA781AF19B0245D006AFE2B /* You Don't Need to Edit These */,
+				ACA23BE0197444AF005FC85B /* Supporting Files */,
+			);
+			path = Archetapp;
+			sourceTree = "<group>";
+		};
+		ACA23BE0197444AF005FC85B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC3136AD19757EFD00F5050B /* ArchetappHeader.png */,
+				AC3136AE19757EFD00F5050B /* ArchetappHeader@2x.png */,
+				ACB2E90D19B6966E0000EBBA /* menu.png */,
+				ACB2E90E19B6966E0000EBBA /* menu@2x.png */,
+				ACA23C0E197444FB005FC85B /* Reveal */,
+				ACA23BE1197444AF005FC85B /* Archetapp-Info.plist */,
+				ACA23BE2197444AF005FC85B /* InfoPlist.strings */,
+				ACA23BE5197444AF005FC85B /* main.m */,
+				ACA23BE7197444AF005FC85B /* Archetapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA23BFE197444AF005FC85B /* ArchetappTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA23C04197444AF005FC85B /* ArchetappTests.m */,
+				ACA23BFF197444AF005FC85B /* Supporting Files */,
+			);
+			path = ArchetappTests;
+			sourceTree = "<group>";
+		};
+		ACA23BFF197444AF005FC85B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA23C00197444AF005FC85B /* ArchetappTests-Info.plist */,
+				ACA23C01197444AF005FC85B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA23C0E197444FB005FC85B /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				AC3136A81975769900F5050B /* SWRevealViewController.h */,
+				AC3136A91975769900F5050B /* SWRevealViewController.m */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		ACA781AF19B0245D006AFE2B /* You Don't Need to Edit These */ = {
+			isa = PBXGroup;
+			children = (
+				AC3136B119758EB600F5050B /* YoutubeViewController.h */,
+				AC3136B219758EB600F5050B /* YoutubeViewController.m */,
+				ACA23BE8197444AF005FC85B /* AppDelegate.h */,
+				ACA23BE9197444AF005FC85B /* AppDelegate.m */,
+				AC21857F1995B0580093BB1B /* VideoViewController.h */,
+				AC2185801995B0580093BB1B /* VideoViewController.m */,
+			);
+			name = "You Don't Need to Edit These";
+			sourceTree = "<group>";
+		};
+		ACA781B019B024AE006AFE2B /* Edit These Files! */ = {
+			isa = PBXGroup;
+			children = (
+				ACA23BEB197444AF005FC85B /* Main.storyboard */,
+				ACA23C1B1974537E005FC85B /* NavigationViewController.h */,
+				ACA23C1C1974537E005FC85B /* NavigationViewController.m */,
+			);
+			name = "Edit These Files!";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA23BD5197444AF005FC85B /* Archetapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA23C08197444AF005FC85B /* Build configuration list for PBXNativeTarget "Archetapp" */;
+			buildPhases = (
+				29FA2262E95C4566A569C0E9 /* Check Pods Manifest.lock */,
+				ACA23BD2197444AF005FC85B /* Sources */,
+				ACA23BD3197444AF005FC85B /* Frameworks */,
+				ACA23BD4197444AF005FC85B /* Resources */,
+				17B083BE3FBE45F491238B7F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Archetapp;
+			productName = Archetapp;
+			productReference = ACA23BD6197444AF005FC85B /* Archetapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA23BF6197444AF005FC85B /* ArchetappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA23C0B197444AF005FC85B /* Build configuration list for PBXNativeTarget "ArchetappTests" */;
+			buildPhases = (
+				ACA23BF3197444AF005FC85B /* Sources */,
+				ACA23BF4197444AF005FC85B /* Frameworks */,
+				ACA23BF5197444AF005FC85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA23BFD197444AF005FC85B /* PBXTargetDependency */,
+			);
+			name = ArchetappTests;
+			productName = ArchetappTests;
+			productReference = ACA23BF7197444AF005FC85B /* ArchetappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA23BCE197444AF005FC85B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Archetapp;
+				TargetAttributes = {
+					ACA23BF6197444AF005FC85B = {
+						TestTargetID = ACA23BD5197444AF005FC85B;
+					};
+				};
+			};
+			buildConfigurationList = ACA23BD1197444AF005FC85B /* Build configuration list for PBXProject "Archetapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA23BCD197444AF005FC85B;
+			productRefGroup = ACA23BD7197444AF005FC85B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA23BD5197444AF005FC85B /* Archetapp */,
+				ACA23BF6197444AF005FC85B /* ArchetappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA23BD4197444AF005FC85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3136AF19757EFD00F5050B /* ArchetappHeader.png in Resources */,
+				ACA23BF2197444AF005FC85B /* Images.xcassets in Resources */,
+				ACA93D4C19AFBBF900648F72 /* YoutubeBanner.png in Resources */,
+				ACA23BE4197444AF005FC85B /* InfoPlist.strings in Resources */,
+				ACB2E90F19B6966E0000EBBA /* menu.png in Resources */,
+				ACB2E91019B6966E0000EBBA /* menu@2x.png in Resources */,
+				ACA23BED197444AF005FC85B /* Main.storyboard in Resources */,
+				AC3136B019757EFD00F5050B /* ArchetappHeader@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA23BF5197444AF005FC85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA23C03197444AF005FC85B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B083BE3FBE45F491238B7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29FA2262E95C4566A569C0E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA23BD2197444AF005FC85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA23BEA197444AF005FC85B /* AppDelegate.m in Sources */,
+				AC3136AA1975769900F5050B /* SWRevealViewController.m in Sources */,
+				ACA23C1D1974537E005FC85B /* NavigationViewController.m in Sources */,
+				AC2185811995B0580093BB1B /* VideoViewController.m in Sources */,
+				AC3136B319758EB600F5050B /* YoutubeViewController.m in Sources */,
+				ACA23BE6197444AF005FC85B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA23BF3197444AF005FC85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA23C05197444AF005FC85B /* ArchetappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA23BFD197444AF005FC85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA23BD5197444AF005FC85B /* Archetapp */;
+			targetProxy = ACA23BFC197444AF005FC85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA23BE2197444AF005FC85B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA23BE3197444AF005FC85B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACA23BEB197444AF005FC85B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA23BEC197444AF005FC85B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA23C01197444AF005FC85B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA23C02197444AF005FC85B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA23C06197444AF005FC85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACA23C07197444AF005FC85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA23C09197444AF005FC85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAEFAAF14D74554A0970F55 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archetapp/Archetapp-Prefix.pch";
+				INFOPLIST_FILE = "Archetapp/Archetapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACA23C0A197444AF005FC85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAEFAAF14D74554A0970F55 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archetapp/Archetapp-Prefix.pch";
+				INFOPLIST_FILE = "Archetapp/Archetapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACA23C0C197444AF005FC85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Archetapp.app/Archetapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archetapp/Archetapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArchetappTests/ArchetappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACA23C0D197444AF005FC85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Archetapp.app/Archetapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archetapp/Archetapp-Prefix.pch";
+				INFOPLIST_FILE = "ArchetappTests/ArchetappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA23BD1197444AF005FC85B /* Build configuration list for PBXProject "Archetapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA23C06197444AF005FC85B /* Debug */,
+				ACA23C07197444AF005FC85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA23C08197444AF005FC85B /* Build configuration list for PBXNativeTarget "Archetapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA23C09197444AF005FC85B /* Debug */,
+				ACA23C0A197444AF005FC85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA23C0B197444AF005FC85B /* Build configuration list for PBXNativeTarget "ArchetappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA23C0C197444AF005FC85B /* Debug */,
+				ACA23C0D197444AF005FC85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA23BCE197444AF005FC85B /* Project object */;
+}

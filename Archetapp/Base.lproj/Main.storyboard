@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+    </dependencies>
+    <scenes>
+        <!--Reveal View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="nta-ck-bKU" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegue" id="oqV-ng-ZAp"/>
+                        <segue destination="da7-N1-xEx" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegue" id="gP6-Qq-Uh0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="367" y="262"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XaR-AS-SeO">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="nta-ck-bKU" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="QR7-1H-0F2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tcM-uO-dSS" kind="relationship" relationship="rootViewController" id="EpI-9V-cB3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ac4-tB-ReS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="520"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="xce-Dq-9K4">
+            <objects>
+                <tableViewController id="da7-N1-xEx" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="MrK-V4-MkV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YoutubeBanner.png" id="J4L-mb-7DR">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="marquesbrownlee" textLabel="Ipp-i2-wSJ" style="IBUITableViewCellStyleDefault" id="vsW-gW-kdr">
+                                <rect key="frame" x="0.0" y="142" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vsW-gW-kdr" id="18a-uf-J0n">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Marques Brownlee" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ipp-i2-wSJ">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="dWz-YX-HQS"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="duncan33303" textLabel="0Pg-Rb-c99" style="IBUITableViewCellStyleDefault" id="AkW-3d-KbA">
+                                <rect key="frame" x="0.0" y="186" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AkW-3d-KbA" id="8tc-x6-OPm">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Austin Evans" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Pg-Rb-c99">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="xbe-CC-QuS"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UnboxTherapy" textLabel="w2b-af-rcK" style="IBUITableViewCellStyleDefault" id="A0J-kX-9LG">
+                                <rect key="frame" x="0.0" y="230" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A0J-kX-9LG" id="CFs-L8-tg4">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Unbox Therapy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w2b-af-rcK">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="siJ-P3-jJ0"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="linustechtips" textLabel="4UK-Jh-FxG" style="IBUITableViewCellStyleDefault" id="je1-RG-uEv">
+                                <rect key="frame" x="0.0" y="230" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="je1-RG-uEv" id="Xah-6W-CyM">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Linus Tech Tips" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4UK-Jh-FxG">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.13725490196078433" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="8n7-l8-I9r"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="pocketnowvideo" textLabel="jE8-ZN-Xhu" style="IBUITableViewCellStyleDefault" id="Y8X-Iu-PG3">
+                                <rect key="frame" x="0.0" y="230" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y8X-Iu-PG3" id="Idy-aW-uy8">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Pocketnow" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jE8-ZN-Xhu">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="aZy-Kf-SuN"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HardwareCanucks" textLabel="sUA-fX-qYA" style="IBUITableViewCellStyleDefault" id="O4v-Nw-be8">
+                                <rect key="frame" x="0.0" y="230" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O4v-Nw-be8" id="RNq-0v-Z2U">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Hardware Canucks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sUA-fX-qYA">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="zaI-ZE-3dh"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="archetapp" textLabel="vE8-ad-EX2" style="IBUITableViewCellStyleDefault" id="wEw-lv-9Bd">
+                                <rect key="frame" x="0.0" y="230" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wEw-lv-9Bd" id="vlW-1y-PdH">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Jared Davidson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vE8-ad-EX2">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="tcM-uO-dSS" kind="custom" customClass="SWRevealViewControllerSegue" id="y1m-oO-XAC"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="da7-N1-xEx" id="pnR-Fo-wLD"/>
+                            <outlet property="delegate" destination="da7-N1-xEx" id="XpS-Zr-b9h"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f4r-wY-vxy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="-98"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="51l-6I-it4">
+            <objects>
+                <tableViewController id="tcM-uO-dSS" customClass="YoutubeViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="228" sectionHeaderHeight="22" sectionFooterHeight="22" id="Akk-B6-0TI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="228" id="tIu-S3-flW">
+                                <rect key="frame" x="0.0" y="22" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tIu-S3-flW" id="Ce0-Zp-diZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="55"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SiB-5d-8nO">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="178"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="jcT-cv-i1h">
+                                            <rect key="frame" x="20" y="174" width="280" height="53"/>
+                                            <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Ety-hA-Lj6" kind="push" identifier="pushNewViewController;" id="STO-SZ-AFu"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="tcM-uO-dSS" id="LjD-uq-zn7"/>
+                            <outlet property="delegate" destination="tcM-uO-dSS" id="RKT-2O-6NO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="4V7-UF-Vcv">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="Qhh-sY-9Nd">
+                            <color key="tintColor" red="1" green="0.070606579984313966" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="sidebarButton" destination="Qhh-sY-9Nd" id="ngx-CV-0sp"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mEg-QN-dko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="Y6o-64-5tV">
+                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+            </objects>
+            <point key="canvasLocation" x="1227" y="-336"/>
+        </scene>
+        <!--Youtube Video-->
+        <scene sceneID="h2W-oW-x2k">
+            <objects>
+                <viewController id="Ety-hA-Lj6" customClass="VideoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="buj-Fd-hdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="tok-qH-Im3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZV0-Gg-Nxl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VR6-pS-ij4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="243"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cf4-7S-F2g">
+                                <rect key="frame" x="0.0" y="319" width="320" height="199"/>
+                                <color key="backgroundColor" red="0.14509803921568626" green="0.14901960784313725" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="xnC-Z8-TY0">
+                                <rect key="frame" x="20" y="251" width="280" height="60"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="GpB-QO-bMh">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <color key="backgroundColor" red="0.1450980392" green="0.14901960780000001" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Youtube Video" id="HnS-AU-49Y"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="Description" destination="Cf4-7S-F2g" id="jOA-4o-F31"/>
+                        <outlet property="Video" destination="VR6-pS-ij4" id="2Nb-jE-dav"/>
+                        <outlet property="VideoLabel" destination="xnC-Z8-TY0" id="Zcv-6h-fF1"/>
+                        <outlet property="Views" destination="GpB-QO-bMh" id="VWe-M6-BW4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNQ-zd-3p1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1997" y="-310"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="YoutubeBanner.png" width="640" height="200"/>
+        <image name="menu.png" width="28" height="20"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="EpI-9V-cB3"/>
+    </inferredMetricsTieBreakers>
+</document>
